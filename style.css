@@ -27,6 +27,11 @@ body{
   padding: 0px;
 }
 
+.intro{
+  font-family: cursive;
+  font-weight: bold;
+}
+
 .counter {
   border: 2px solid;
   text-align: center;
