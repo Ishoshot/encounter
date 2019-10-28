@@ -17,7 +17,7 @@ new Vue({
     },
     setDiff() {
       var now = moment();
-      var theDay = moment("20191219", "YYYYMMDD");
+      var theDay = moment("20191108", "YYYYMMDD");
       this.weeks = theDay.diff(now, 'weeks');
       now.weeks(now.weeks() + this.weeks);
       this.days = theDay.diff(now, 'days');
