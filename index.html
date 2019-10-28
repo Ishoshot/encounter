@@ -81,12 +81,26 @@
 		  
 		  </ul>
 
+		  <div class="text-white text-center row container-fluid mt-5">
+		  	<div class="col-md-7">
+		  		Are you Interested?
+		  		<button type="submit" class="btn btn-outline-primary" v-on:click="increment">Yes</button>
+		  		<button type="submit" class="btn btn-outline-danger" v-on:click="decrement">No</button>
+		  	</div>
+		  	<div class="col-md-5">
+		  		<p class="text-white">
+		  			<i class="interested">{{ interested }} </i>person(s) are currently Interested..
+		  		</p>
+		  	</div>
+		  </div>
+
 		  <marquee class="marquee mt-4">Contact: 08105575363 for enquires</marquee>
 
 	</div>
 
 
 </div>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>

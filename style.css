@@ -75,3 +75,14 @@ body{
   background:transparent;
   padding: 2px;
 }
+
+.interested{
+  font-size: 20px;
+  font-weight: bolder;
+  margin-right: 4px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: #3880ff;
+  color: #fff;
+}

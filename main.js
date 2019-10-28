@@ -1,11 +1,14 @@
 new Vue({
   el: '#app',
-  data: {
-    weeks: 0,
-    days: 0,
-    hours: 0,
-    minutes: 0,
-    seconds: 0
+  data(){
+    return{ 
+      weeks: 0,
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0,
+      interested: 168
+    }
   },
   methods: {
     updateDiff: function() {
@@ -15,6 +18,17 @@ new Vue({
         this.seconds -= 1;
       }
     },
+
+    increment: function (){
+    this.interested ++;
+  },
+
+    decrement: function (){
+    if (this.interested !== 0) {
+      this.interested --;
+    }
+  },
+
     setDiff() {
       var now = moment();
       var theDay = moment("20191108", "YYYYMMDD");
