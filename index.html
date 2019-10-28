@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<meta name="theme-color" content="#1988e0">
+  	
+  	<meta content="width=device-width,initial-scale=1" name=viewport>
+	
+	<meta name="keywords" 
+	content="Encounter, Worship, Kingdom, Worshippers, Concert">
+  	
+  	<meta name="description" 
+  	content="The Kingdom Worshippers presents her Annual Encounter Worship Concert. Theme: In His Presence.">
+	
+	<link rel="shortcut icon" href="./media/kw.jpg" type="image/x-icon">
+	
+	<title>Encounter Worship Concert 2k19</title>
+	
+	<link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+	<script src="./main.js" type="text/javascript" async defer></script>
+</head>
+<body>
+
+<div id="app" class="app">
+
+	<div class="overlay">
+
+		<div class="jumbotron inherit p-0">
+
+	  		<div class="container-fluid inherit">
+
+	    		<div class="row">
+	      
+	     		   <div class="col-md-12 mt-3">
+	     		   		<img src="./media/kingdom.png" alt="" width="200" height="180">
+		  				<h2 class="text-center text-white intro">THE ENCOUNTER WORSHIP CONCERT</h2>
+		  				<span class="two">2</span>
+		  				<span class="dot">.</span>
+		  				<span class="zero">0</span>
+	     		   </div>
+	     
+	   			  </div>
+	  
+	 		 </div>
+
+		</div>
+
+	  
+		  <ul class="countdown text-white d-flex row container-fluid m-0 p-0 justify-content-center">
+		    
+		    <li class="counter col-2 m-0 p-0 mr-2 ml-2 mt-2">
+		      <p class="fontSize">{{ weeks }}</p>
+		      <p class="counter-label">WKS</p>
+		    </li>
+
+		    <li class="counter col-2 m-0 p-0 mr-2 ml-2 mt-2">
+		      <p class="fontSize">{{ days }}</p>
+		      <p class="counter-label">DAYS</p>
+		    </li>
+
+			 <li class="counter col-2 m-0 p-0 mr-2 ml-2 mt-2">
+		      <p class="fontSize">{{ hours }}</p>
+		      <p class="counter-label">HRS</p>
+			</li>
+		 	
+		 	<li class="counter col-2 m-0 p-0 mr-2 ml-2 mt-2">
+		      <p class="fontSize">{{ minutes }}</p>
+		      <p class="counter-label">MINS</p>
+		    </li>
+
+		    <li class="counter col-2 m-0 p-0 mr-2 ml-2 mt-2">
+		      <p class="fontSize">{{ seconds }}</p>
+		      <p class="counter-label">SECS</p>
+		    </li>
+		  
+		  </ul>
+
+		  <marquee class="marquee">Contact: 08105575363 for enquires</marquee>
+
+	</div>
+
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
